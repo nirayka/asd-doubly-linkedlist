@@ -65,7 +65,7 @@ public class DoublyLinkedList {
         }
     }
 
-    public static void deleteAtIndex(DoublyLinkedList list, int index) { // FIX THIS -- 101 still appearing in list
+    public static void deleteAtIndex(DoublyLinkedList list, int index) {
         Node currNode = list.head, prev = null;
         int size = returnSize(list);
 
